@@ -10,5 +10,5 @@ public class AppDbContext : DbContext // Mapeamento do domínio às tabelas do b
     }
 
     public DbSet<Categoria>? Categorias { get; set; } // ? para ser opcionial
-    public DbSet<Produto>? Produtos { get; set; }
+    public DbSet<Produto>? Produtos { get; set; } // Criar tabelas com base nas entidades tal
 }
